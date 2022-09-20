@@ -1,6 +1,6 @@
 enum APPRoutes {
   ROOT = '/',
-  SHOPPING_LIST = 'shopping-list',
+  REGISTER = 'register',
 }
 
 export default APPRoutes;

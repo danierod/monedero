@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ShoppingLists from './pages/shopping-lists/ShoppingLists';
+import Register from './pages/register/Register';
 import APPRoutes from './config/routes';
 
 const root = ReactDOM.createRoot(
@@ -16,7 +16,7 @@ root.render(
       <Routes>
         <Route path={APPRoutes.ROOT}>
           <Route index element={<App />} />
-          <Route path={APPRoutes.SHOPPING_LIST} element={<ShoppingLists />} />
+          <Route path={APPRoutes.REGISTER} element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>
