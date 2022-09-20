@@ -20,6 +20,7 @@ Add notes on what is being done and what should be done next.
 
 ### Client
 
+- [] Check if webapp was well created (has TS)
 - [] Bootstrap NEXT.js app following https://nextjs.org/docs/api-reference/create-next-app
 
 - [] Implement Register form.
