@@ -1,0 +1,96 @@
+.background {
+  position: absolute;
+  background-image: url(/images/landing-1.svg);
+  background-repeat: no-repeat;
+  background-size: auto 102vh;
+  background-position: left top;
+  z-index: -2;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  font-size: 1.6rem;
+
+  position: relative;
+  width: 400px;
+  height: 600px;
+  padding: 2.4rem 4.8rem;
+
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 1.1rem;
+  color: black;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px; /* !importanté */
+    border-radius: 1.4rem; /* !importanté */
+    background: linear-gradient(to left, #405dcb, #8903ad);
+  }
+
+  // Ideal solution but not compatible with border-radius
+
+  // border: 10px solid;
+  // border-image-slice: 1;
+  // border-width: 5px;
+  // border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+  form {
+    margin-top: 4rem;
+  }
+}
+
+.main {
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+}
+
+.input {
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: none;
+  margin: 10px 0;
+  width: 100%;
+  padding: 4px;
+  color: rgba(0, 0, 0, 0.8);
+
+  border-bottom: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+  &:focus {
+    outline: none;
+  }
+}
