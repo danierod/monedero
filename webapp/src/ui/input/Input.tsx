@@ -7,7 +7,7 @@ import styles from "./input.module.scss";
 
 type InputProps = {
   className?: string;
-  type: "email" | "password";
+  type: "email" | "password" | "text";
   name?: string;
   value?: string;
   placeholder?: string;
