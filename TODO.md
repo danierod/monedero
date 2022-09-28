@@ -23,4 +23,5 @@ Add notes on what is being done and what should be done next.
 - [x] Check if webapp was well created (has TS)
 - [x] Bootstrap NEXT.js app following https://nextjs.org/docs/api-reference/create-next-app
 
-- [] Implement Register form.
+- [x] Add basic form validation using Formik.
+- [] Integrate Sign up form with GraphQL API.
