@@ -15,6 +15,7 @@ Add notes on what is being done and what should be done next.
 ### Client
 
 - [x] Create webapp using create-next-app
+- [] Implement login
 
 ## Next work to do
 
@@ -24,4 +25,6 @@ Add notes on what is being done and what should be done next.
 - [x] Bootstrap NEXT.js app following https://nextjs.org/docs/api-reference/create-next-app
 
 - [x] Add basic form validation using Formik.
-- [] Integrate Sign up form with GraphQL API.
+- [x] Integrate Sign up form with GraphQL API.
+- [] Implement Login
+- [] Login user after Sign up
