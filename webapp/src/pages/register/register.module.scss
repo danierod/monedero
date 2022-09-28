@@ -49,6 +49,7 @@
 
   form {
     margin-top: 4rem;
+    width: 100%;
   }
 }
 
@@ -75,22 +76,4 @@
 .description {
   margin: 2rem 0;
   line-height: 1.5;
-}
-
-.input {
-  font-size: 1.6rem;
-  background-color: transparent;
-  border: none;
-  margin: 10px 0;
-  width: 100%;
-  padding: 4px;
-  color: rgba(0, 0, 0, 0.8);
-
-  border-bottom: 3px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-
-  &:focus {
-    outline: none;
-  }
 }
