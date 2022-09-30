@@ -5,7 +5,7 @@ import cors from "cors";
 import { ApolloServer } from "apollo-server-express";
 import { buildSchema } from "type-graphql";
 
-import { RegisterResolver } from "./modules/user/Register";
+import { SignupResolver } from "./modules/user/Signup";
 import { AppDataSource } from "./app-data-source";
 
 const main = async () => {
@@ -16,7 +16,7 @@ const main = async () => {
     .catch((error) => console.log(error));
 
   const schema = await buildSchema({
-    resolvers: [RegisterResolver],
+    resolvers: [SignupResolver],
   });
 
   const apolloServer = new ApolloServer({ schema });

@@ -2,7 +2,7 @@
 
 **Database provider:** Postgres
 
-**DB IDE:** TablePlus or Valentina Studio
+**DB IDE:** TablePlus
 
 **Connection:**
 
