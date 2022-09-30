@@ -15,6 +15,7 @@ Add notes on what is being done and what should be done next.
 ### Client
 
 - [x] Create webapp using create-next-app
+- [x] Add basic validation
 - [] Implement login
 
 ## Next work to do
