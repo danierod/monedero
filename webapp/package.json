@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.9",
+    "@conform-to/react": "^0.4.0",
+    "@conform-to/zod": "^0.4.0",
     "@types/graphql": "^14.5.0",
     "formik": "^2.2.9",
     "graphql": "^16.6.0",
     "next": "12.3.1",
+    "npm": "^9.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@types/node": "18.7.18",
