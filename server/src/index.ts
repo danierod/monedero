@@ -7,6 +7,7 @@ import { buildSchema } from "type-graphql";
 
 import { SignupResolver } from "./modules/user/Signup";
 import { AppDataSource } from "./app-data-source";
+import { LoginResolver } from "./modules/user/Login";
 
 const main = async () => {
   AppDataSource.initialize()
@@ -16,7 +17,7 @@ const main = async () => {
     .catch((error) => console.log(error));
 
   const schema = await buildSchema({
-    resolvers: [SignupResolver],
+    resolvers: [SignupResolver, LoginResolver],
   });
 
   const apolloServer = new ApolloServer({ schema });
